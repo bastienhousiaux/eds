@@ -1,0 +1,638 @@
+/*
+*theme Name: eds
+*/
+/*Acueil*/
+/*Version PC*/
+/*début css nath*/
+body{
+    height:100%;
+    font-size: 15px;
+}
+@font-face {
+    font-family: miso-bold;
+    src: url(../police/miso/miso-bold.ttf);
+}
+@font-face {
+    font-family: miso-regular;
+    src: url(../police/miso/miso-regular.ttf);
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color:#F02A2A;
+    color: #ffffff;
+    padding:5px;
+}
+.fa-bars{
+    display: none;
+}
+.container-fluid .navigator{
+    font-size:1.5rem;
+    padding-left:5rem;
+}
+.container-fluid .navigator .ecole-solidaire{
+    padding-top:2rem;
+}
+.container-fluid .navigator .para1{
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFF121;
+    display: inline-block;
+    padding-bottom:0rem;
+    font-family: miso-bold;
+    font-size: 3.9rem;
+ 
+}
+.container-fluid .navigator .para2{
+    padding-bottom:1rem;
+    font-size: 2.4rem;
+    font-family:miso-regular;
+}
+.container-fluid img{
+    height:15rem;
+    padding-left: 6rem;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+.flex .savoir{
+    padding:3rem;
+    padding-right: 0;
+    font-family: miso-bold;
+    font-size:2rem;
+    padding-bottom:0;
+}
+ 
+.container-fluid .pouvoir{
+    color: #FFF121;
+}
+.container{
+ 
+    width:100%;
+    margin-right: 0px;
+    padding-right: 0px;
+ 
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul{
+    list-style: none;
+    padding:1rem;
+    margin: 0;
+    background-color:#EBEBEB;
+    border: 0px solid;
+    border-radius:0 0 0 5rem;
+ 
+}
+.menu li{
+    display: inline-block;
+    padding-left: 2rem;
+}
+ 
+.left ul:first-child{
+    padding-left: 5rem;
+}
+.left ul:last-child{
+    padding-right: 5rem;
+}
+.menu a{
+    color:#F02A2A;
+}
+.left{
+    float: right;
+}
+footer {
+ 
+    width: 100%;
+    text-align: left;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+footer ul li {
+    padding-left: 1rem;
+    list-style: none;
+    display: inline-block;
+}
+footer ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+footer .sirius {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 4rem;
+    float: right;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+@media only screen and (max-width:770px){
+ 
+    .fa-bars{
+        font-size:2rem;
+        display: inline-block;
+        color: black;
+        position: fixed;
+        padding:1rem;
+        cursor: pointer;
+        z-index: 1000;
+ 
+    }
+    .container-fluid .navigator{
+        font-size:1rem;
+        padding-left:4rem;
+    }
+   
+    .container-fluid .navigator .ecole-solidaire{
+        padding-top:0;
+    }
+    .container-fluid .navigator .para1{
+        border-bottom: 1px solid #FFFFFF;
+        color: #FFF121;
+        display: inline-block;
+        padding-bottom:0rem;
+       font-family:miso-bold;
+       font-size: 1.8rem;
+ 
+    }
+    .container-fluid .navigator .para2{
+        padding-bottom:1rem;
+        font-size:1.1rem;
+        font-family:miso-regular;
+        font-size: 1.3rem;
+     
+    }
+    .container-fluid img{
+        height:8rem;
+    }
+    .flex .savoir{
+        padding: 1rem;
+        padding-right: 0;
+        font-family: miso-bold;
+        font-size:1rem;
+    }
+    .menu{
+        display: none;
+    }
+    .menu li{
+ 
+        list-style: none;
+        padding:1rem;
+        margin: 0;
+        background-color:#EBEBEB;
+        border: 0px solid;
+        border-radius:0 0 0 5rem;
+    }
+    .menu li a{
+        color:#F02A2A;
+        display:none;
+    }
+    footer .sirius {
+        border-top: 1px solid #707070;
+        height: auto;
+        width: 100%;
+        margin: 0;
+        float: none;
+        text-align: center;
+    }
+}
+/**fin de la partie que nathalie à envoyer*/
+
+body{
+    height:100%;
+    font-size: 15px;
+
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
+}
+.navigator{
+    background-color:#F02A2A; 
+    height:12rem;
+    width:100%;
+}
+.ecole-solidaire{
+    padding-left:4rem;
+    padding-top:1rem;
+    font-size:1.8rem;
+}
+
+.ecole-solidaire p{
+    color: #FFFFFF;
+    font-family:cursive;
+
+}
+.ecole-solidaire .paragraph {
+    border-bottom: 1px solid #FFFFFF; 
+    color: #FFF121;
+    display: inline-block;
+    padding-bottom:1rem;
+}
+.navigator-image img{
+    height:12rem;
+    padding:1rem;
+    position:fixed;
+    color: black;
+    margin-left: 2rem;
+    margin:0;
+}
+.navigator-image p{
+    padding-left: 10rem;
+    margin: 1rem;
+    font-size: 1.8rem;
+    color: white;
+    font-family:cursive;
+}
+.navigator-image .title{
+    color:#FFF121;
+}
+.main-menu{
+    background-color:#EBEBEB;
+    width:45%;
+    float:right;
+   border-radius:0 0 0 5rem;
+}
+.main-menu ul{
+    list-style: none;
+    padding:0.5rem;
+    margin: 0;
+}
+.main-menu li{
+
+    display:inline-block;
+    padding-left:4rem;
+}
+.main-menu a{
+    color:#F02A2A;
+    text-decoration: none;
+    display: inline-block;
+    font-family:cursive;
+
+}
+@media only screen and (max-width: 600px){
+
+    body{
+        background-color:#F02A2A;
+        overflow-x:no-display;
+    }
+    [class^="col-"], [class*=" col-"], .row{
+        padding: 0;
+        margin: 0;
+    }
+    .navigator{
+        background-color:#F02A2A; 
+        height:8rem;
+        width:100%;
+    }
+    .ecole-solidaire{
+        margin-left:3rem;
+        margin-top:2rem;
+    }
+    .ecole-solidaire p{
+        color: #FFFFFF;
+        font-family:cursive;
+        font-size:1.2rem;
+    }
+    .ecole-solidaire .paragraph {
+        border-bottom: 1px solid #FFFFFF; 
+        color: #FFF121;
+        margin-top:2rem;
+        padding-bottom:1rem;
+        display: inline-block;
+    } 
+    .navigator-image img{
+        height:17rem;
+        padding:0;
+        margin-top:2rem;
+
+    }
+    .navigator-image p{
+        font-family:cursive;
+        padding:-2rem;
+        margin-top:3rem;
+        margin-left:3rem;
+
+    }
+    nav{
+        display: none;
+    }
+}
+
+
+
+
+    
+  
+    
+
+/*.navigator-image img{ je crois que ceci est un commentaire*/
+
+.navigator-image img{
+
+    height:12rem;
+    padding:1rem;
+    position:fixed;
+    color: black;
+    margin-left: 2rem;
+}
+.navigator-image p{
+    font-size:2rem;
+}
+
+.navigator-image .title{
+    color: #FFF121;
+}
+.navigator-image div {
+    float: right;
+}
+
+@media  screen and (max-width:400px){
+    body{
+    height:100%;
+    font-size: 15px;
+   
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
+}
+.ecole-solidaire{
+    padding-left:2rem;
+    padding-top:1rem;
+}
+
+.ecole-solidaire p{
+    color: #FFFFFF;
+    font-size:1.5rem;
+
+
+
+    font-size: 2rem;
+
+    margin:0;
+    font-family:miso;
+}
+.navigator{
+    background-color:#F02A2A; 
+    height:15rem;
+    width:100%;
+}
+.navigator .paragraph{
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFF121;
+    display: inline-block;
+    font-size: 2rem;
+}
+.navigator-image img{
+    height:10rem;
+    padding:1rem;
+    margin-left: 2rem;
+    color: black;
+
+}
+
+.navigator-image p{
+    font-size:2rem;
+}
+
+.navigator-image .title{
+    color: #FFF121;
+}
+ .navigator-image p{
+        font-size:1.5rem;
+    }
+}
+.navigator-title p{
+    color: white;
+
+
+}
+.navigator-title .title{
+    color:#FFF121;
+}
+
+
+
+/*footer*/
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+footer ul {
+    margin: 0;
+    line-height: normal;
+}
+footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+footer ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+}
+footer .sirius {
+    text-align: right;
+    margin-top: 0.5rem;
+}
+footer .sirius img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 1rem;
+}
+
+
+
+
+
+/*faq*/
+
+faq {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+faq ul {
+    margin: 0;
+}
+faq ul li {
+    list-style: none;
+    display: inline-block;
+}
+faq ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+}
+faq .sirius {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+faq .sirius img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 1rem;
+}
+
+
+
+
+
+
+/*blog*/
+
+
+blog {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+blog ul {
+    margin: 0;
+}
+blog ul li {
+    list-style: none;
+    display: inline-block;
+}
+blog ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+}
+blog .sirius {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+blog .sirius img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 1rem;
+}
+
+
+
+
+
+/*contact*/
+
+contac {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+contac ul {
+    margin: 0;
+}
+footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+.contac ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+}
+contac .sirius {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+contac .sirius img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 1rem;
+}
+
+
+
+/*siruis*/
+
+siruis {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #EBEBEB;
+    line-height: 7rem;
+}
+siruis ul {
+    margin: 0;
+}
+siruis ul li {
+    list-style: none;
+    display: inline-block;
+}
+siruis ul li img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 0.5rem;
+}
+siruis .sirius {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+siruis .sirius img {
+    height: auto;
+    width: 4.5rem;
+    margin: 0 1rem;
+}
+
+
+/*presentation*/
+
+/*Contenu Presentation*/
+body {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.prologue img {
+    height: auto;
+    width: 20rem;
+    display: inline-block;
+}
+.prologue p {
+    display: inline-block;
+    text-align: justify;
+}
+.contenu {
+    display: block;
+    text-align: justify;
+}
+.contenu p {
+    margin: 2rem 0;
+}
+
+
