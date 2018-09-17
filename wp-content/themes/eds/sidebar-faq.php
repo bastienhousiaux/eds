@@ -9,7 +9,7 @@
                         'theme_location'    => 'faq_menu',
                         'container'         => 'nav',
                         'menu_class'        => 'menu',
-                        'container_class'   => 'main-navigation'   ,
+                        'container_class'   => 'main-navigation'
                     )
                     );?> 
 

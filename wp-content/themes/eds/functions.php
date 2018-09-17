@@ -72,9 +72,14 @@ function eds_styles_scripts()
     wp_register_style("eds-jqueryui","http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css");
     wp_enqueue_style('eds-jqueryui');
 
-    if(is_page_template("template-faq.php"))
+    wp_register_script('spa_test', get_template_directory_uri().'/js/spa_test.js', "2.5.17",array('jquery',"jquery-ui-core","jquery-ui-accordion","jquery-ui-button"));
+    wp_enqueue_script('spa_test');
+
+    if(is_page_template("templates/template-faq.php"))
     {
-        wp_register_script('eds-accordion', get_template_directory_uri().'/js/new.js', array('jquery',"jquery-ui-core","jquery-ui-accordion","jquery-ui-button"), "1.2");
+        wp_register_script('vue', get_template_directory_uri().'/js/vue/vue.js', "2.5.17");
+        wp_enqueue_script('vue');
+        wp_register_script('eds-accordion', get_template_directory_uri().'/js/faq_accordion_script.js', array('jquery',"jquery-ui-core","jquery-ui-accordion","jquery-ui-button"), "1.2");
         wp_enqueue_script('eds-accordion');
     }
    

@@ -11,4 +11,7 @@ mes évènements
 
     
     <?php endwhile;?>
+    <div id="test_spa">
+    
+    </div>
 <?php get_footer()?>

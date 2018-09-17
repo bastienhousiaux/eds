@@ -10,5 +10,7 @@ mes articles
 
 
     
-    <?php endwhile;?>
+<?php endwhile;?>
+
+
 <?php get_footer()?>
